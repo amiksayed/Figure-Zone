@@ -1,0 +1,28 @@
+.nav-bar {
+    background-color: #000000;
+    height: 5.5vh;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    max-width: 1250px;
+    margin: 20px auto 0 auto;
+    padding-left: 15px;
+    border-radius: 50px;
+    font-size: 3vw;
+    position: relative;
+    z-index: 999;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #FBE017;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 1400px){
+    .nav-bar{
+      max-width: 1200px;
+    }
+  }

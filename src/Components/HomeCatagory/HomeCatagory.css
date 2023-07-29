@@ -1,0 +1,49 @@
+.catagory-img {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(111, 111, 100, 0.384) 0px 7px 29px 0px;
+  max-width: 1250px;
+  margin: 0 auto;
+  border-radius: 100px;
+  height: 120px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 999;
+}
+
+.catagory-img img {
+  width: 90px;
+  height: 90px;
+}
+
+/** Tooltip*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fbe017;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  right: -15px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
